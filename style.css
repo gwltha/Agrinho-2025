@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.card {
+    background-color: #ffffff;
+    color: rgb(10, 10, 10);
+  }
+
+body {
+    background-image: linear-gradient(to top, #12410c, #16962b);
+    color: rgb(41, 49, 56); /* isso deixa o texto branco pra combinar com fundo escuro */
+  }
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #33f321;
+    --cor-destaque: #000000;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+.contato, .feito, .tel, .tel1, .falar, .jogo {color: rgb(179, 176, 4);}
+
+.esse {color: white;}
+
+p#eusou {color: white;}
+
+.imagens-superiores {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px; /* espaço entre as imagens */
+  z-index: 9999; /* garante que fiquem por cima de outros elementos */
+}
+
+.imagens-superiores img {
+  width: 90px;  /* ou o tamanho que você quiser */
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px; /* opcional: deixa com cantos arredondados */
+}

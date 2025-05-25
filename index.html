@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+
+    <div class="imagens-superiores">
+  <img src="img/agrinho logo.png" alt="Imagem 1">
+  <img src="img/morelli.webp" alt="Imagem 2">
+</div>
+
+  <header class="container text-center my-5">
+    <img src="img/perfilnovo.png"avatar da Thais_ class="rounded-circle" width="150" height="150">
+    <p id="eusou" class="lead">Eu sou a Thais</p>
+    <h1 class="falar">Agrinho 2025</h1>
+    <p class="jogo">🤖Tecnologias da Cidade usadas no Campo🌱</p>
+    <h2 class="esse">O que irá ser apresentado</h2>
+    <div class="d-flex justify-content-center gap-2">
+      <span class="badge bg-secondary">O que é</span>
+      <span class="badge bg-secondary">Exemplos</span>
+      <span class="badge bg-secondary">Importância</span>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row g-4">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/campo.webp" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">O que é</h5>
+            <p class="card-text">Neste bloco, iremos aprofundar um pouco sobre o assunto.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/tecnologia no campo.webp" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Exemplos</h5>
+            <p class="card-text">Exemplos de Tecnologias da Cidade usadas no Campo</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/importância.jpg" alt="Imagem do senhor">
+          <div class="card-body">
+            <h5 class="card-title">Qual a Importância</h5>
+            <p class="card-text">Qual a Importância dessas Tecnologias?</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">🔎Sobre:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Com o avanço da tecnologia, muitas inovações criadas para o ambiente urbano estão sendo adaptadas para o uso no campo. Ferramentas como sensores inteligentes, drones, aplicativos e máquinas automatizadas estão revolucionando a agricultura, tornando-a mais eficiente, produtiva e sustentável. Essa integração entre cidade e campo permite que produtores tenham mais controle sobre suas atividades, tomem decisões baseadas em dados e utilizem recursos de forma mais inteligente.
+
+.</p>
+          <img src="img/tecnologia da cidade.jpg" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">🔧Exemplos de Tecnologias da Cidade no Campo:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p> <ul>
+           <li><strong>Sensores e IoT:</strong> Monitoram umidade, clima e solo para decisões mais precisas.</li>
+            <li><strong>Drones:</strong> Fazem mapeamento aéreo e ajudam na detecção de pragas e doenças.</li>
+            <li><strong>Máquinas com GPS:</strong> Garantem precisão no plantio e colheita.</li>
+            <li><strong>Aplicativos de Gestão:</strong> Organizam finanças, clima e estoque das propriedades.</li>
+            <li><strong>Big Data e IA:</strong> Preveem safras e otimizam o uso de recursos.</li>
+            <li><strong>Painéis Solares:</strong> Fornecem energia limpa para sistemas rurais.</li>
+       
+          <img src="img/drone.jpg" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">🌱<span style="color: #33f321; font-weight: bold;">Importância:</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="mb-3 ps-3">
+          <li><strong>Aumentam a produtividade:</strong> Menor desperdício e maior rendimento agrícola.</li>
+          <li><strong>Reduzem custos:</strong> Otimizam o uso de água, fertilizantes e energia.</li>
+          <li><strong>Melhoram a sustentabilidade:</strong> Reduzem o impacto ambiental.</li>
+          <li><strong>Guiam decisões:</strong> Dados em tempo real ajudam no manejo inteligente.</li>
+          <li><strong>Conectam o campo ao mercado:</strong> Facilitam vendas, logística e rastreabilidade.</li>
+        </ul>
+        <img src="img/senhor.jpg" class="img-fluid rounded w-100 mt-2" alt="Importância das tecnologias no campo">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Script do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<center><h1>👧🏻Agrinho🌳</h1></center>
+        <div>
+   
+            </a>
+        </div>
+        <center><h4 class="feito">Feito por Thais.</h4></center>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
